@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserData>
+	<CustomColumns>
+		<Col0>
+			<Title>(21 - Session Logon) Domain\Username | SessionID | Logon Source</Title>
+			<EventIDs>21</EventIDs>
+			<Value>{PARAM[1]} | {PARAM[2]} | {PARAM[3]}</Value>
+		</Col0>
+		<Col1>
+			<Title>(22 - Session Shell Start) Domain\Username | SessionID | Logon Source</Title>
+			<EventIDs>22</EventIDs>
+			<Value>{PARAM[1]} | {PARAM[2]} | {PARAM[3]}</Value>
+		</Col1>
+		<Col2>
+			<Title>(23 - Session Logoff) Domain\Username | SessionID</Title>
+			<EventIDs>23</EventIDs>
+			<Value>{PARAM[1]} | {PARAM[2]}</Value>
+		</Col2>
+		<Col3>
+			<Title>(25 - Session Reconnection) Domain\Username | SessionID | Logon Source</Title>
+			<EventIDs>25</EventIDs>
+			<Value>{PARAM[1]} | {PARAM[2]} | {PARAM[3]}</Value>
+		</Col3>
+		<Col4>
+			<Title>(41 - Session Arbitration) Domain\Username | SessionID</Title>
+			<EventIDs>41</EventIDs>
+			<Value>{PARAM[1]} | {PARAM[2]}</Value>
+		</Col4>
+	</CustomColumns>
+</UserData>

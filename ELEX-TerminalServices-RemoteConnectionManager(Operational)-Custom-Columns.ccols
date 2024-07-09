@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserData>
+	<CustomColumns>
+		<Col0>
+			<Title>(1149 - RDP Auth. Succeeded) Username | Domain | Logon Source</Title>
+			<EventIDs>1149</EventIDs>
+			<Value>{PARAM[1]} | {PARAM[2]} | {PARAM[3]}</Value>
+		</Col0>
+	</CustomColumns>
+</UserData>
